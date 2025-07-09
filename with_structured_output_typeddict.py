@@ -17,6 +17,6 @@ structured_model= model.with_structured_output(SentimentAnalysis)
 
 
 
-response= structured_model.invoke("The phone is really bad it lags a lot and the overall experience is pretty bad")
+response= structured_model.invoke("This phone is amazing! Super fast and great camera quality")
 
 print(response)
